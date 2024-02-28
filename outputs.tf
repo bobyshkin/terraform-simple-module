@@ -1,3 +1,4 @@
 output "id" {
-  value = terraform_data.example.output
+  description = "The simple output based on yours input data"
+  value       = terraform_data.example.output
 }
